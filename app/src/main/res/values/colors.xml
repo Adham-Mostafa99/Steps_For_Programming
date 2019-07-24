@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4DD0E1</color>
+    <color name="colorPrimaryDark">#006064</color>
+    <color name="colorAccent">#FFEB3B</color>
+    <color name="baseBackground">#2275faff</color>
+    <color name="courseBackground">#d277c2f7</color>
+    <color name="navigationBarColor">#006064</color>
+    <color name="javaBackground">#d69fd6e4</color>
+    <color name="textColor">#CDFAFF</color>
+    <color name="buttonColor">#952d91cc</color>
+    <color name="textColorPrimary">#ffffff</color>
+    <color name="borderPhoto">#225</color>
+    <color name="baiscBackground">#C8FDFFFF</color>
+    <color name="scrollBackground">#00838F</color>
+    <color name="mainBackground">#5C03292E</color>
+    <color name="coursesBackground">#EEF2F7</color>
+</resources>

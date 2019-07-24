@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/scrollBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="0"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/mainBackground">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="refresh"
+                android:src="@drawable/refresh"
+                android:layout_margin="8dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/baiscBackground"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/java"
+                    style="@style/course_photo"
+                    android:src="@drawable/java"
+                    app:civ_border_color="@color/borderPhoto"
+                    app:civ_border_width="1dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/cpp"
+                    style="@style/course_photo"
+                    android:src="@drawable/cpp"
+                    app:civ_border_color="@color/borderPhoto"
+                    app:civ_border_width="1dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/android"
+                    style="@style/course_photo"
+                    android:src="@drawable/android"
+                    app:civ_border_color="@color/borderPhoto"
+                    app:civ_border_width="1dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/python"
+                    style="@style/course_photo"
+                    android:src="@drawable/python"
+                    app:civ_border_color="@color/borderPhoto"
+                    app:civ_border_width="1dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/arduino"
+                    style="@style/course_photo"
+                    android:src="@drawable/arduino"
+                    app:civ_border_color="@color/borderPhoto"
+                    app:civ_border_width="1dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/csharp"
+                    style="@style/course_photo"
+                    android:src="@drawable/csharp"
+                    app:civ_border_color="@color/borderPhoto"
+                    app:civ_border_width="1dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/github"
+                    style="@style/course_photo"
+                    android:src="@drawable/github"
+                    app:civ_border_color="@color/borderPhoto"
+                    app:civ_border_width="1dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/kotlin"
+                    style="@style/course_photo"
+                    android:src="@drawable/kotlin"
+                    app:civ_border_color="@color/borderPhoto"
+                    app:civ_border_width="1dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/css"
+                    style="@style/course_photo"
+                    android:src="@drawable/css"
+                    app:civ_border_color="@color/borderPhoto"
+                    app:civ_border_width="1dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/html"
+                    style="@style/course_photo"
+                    android:src="@drawable/html"
+                    app:civ_border_color="@color/borderPhoto"
+                    app:civ_border_width="1dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/js"
+                    style="@style/course_photo"
+                    android:src="@drawable/js"
+                    app:civ_border_color="@color/borderPhoto"
+                    app:civ_border_width="1dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/php"
+                    style="@style/course_photo"
+                    android:src="@drawable/php"
+                    app:civ_border_color="@color/borderPhoto"
+                    app:civ_border_width="1dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

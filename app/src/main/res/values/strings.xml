@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Steps For Programming</string>
+    <string name="java_activity">Java</string>
+    <string name="cpp_activity">C++</string>
+    <string name="android_activity">Android</string>
+    <string name="python_activity">Python</string>
+    <string name="arduino_activity">Arduino</string>
+    <string name="csharp_activity">C#</string>
+    <string name="github_activity">GitHub</string>
+    <string name="kotlin_activity">Kotlin</string>
+    <string name="css_activity">CSS</string>
+    <string name="html_activity">HTML</string>
+    <string name="js_activity">Java Script</string>
+    <string name="php_activity">PHP</string>
+
+    <!--Java URL-->
+    <string name="java101">https://www.youtube.com/watch?v=3QC6Zpz3As4&amp;list=PL28DDB2DCF87BEE43</string>
+    <string name="java102">https://www.youtube.com/watch?v=9w1jLen1lRU&amp;list=PL138BE19EA2405C94</string>
+    <string name="java103">https://www.youtube.com/watch?v=d1b2-99QzEo&amp;list=PLA94A6FB67AB4CD0D</string>
+    <string name="java104">https://www.youtube.com/watch?v=SjbXtRjavjA&amp;list=PLqmVQqNLdVv11bup4o0bRR4zxG2Gu05gX</string>
+
+    <!--C++ URL-->
+    <string name="basicCpp">https://www.youtube.com/watch?v=Fr6wJ5_Hok0&amp;list=PL1DUmTEdeA6IUD9Gt5rZlQfbZyAWXd-oD</string>
+    <string name="basic2Cpp">https://www.youtube.com/watch?v=z1FdInL8sjg&amp;list=PLCInYL3l2AajFAiw4s1U4QbGszcQ-rAb3</string>
+    <string name="oopCpp">https://www.youtube.com/watch?v=6U6WtWG3NrA&amp;list=PL1DUmTEdeA6KLEvIO0NyrkT91BVle8BOU</string>
+    <string name="oop2Cpp">https://www.youtube.com/watch?v=YMXUxKDziaA&amp;list=PLCInYL3l2Aaiq1oLvi9TlWtArJyAuCVow</string>
+    <string name="dsCpp">https://www.youtube.com/watch?v=iAgr41bL09g&amp;list=PL7VL3VEjE3BgMtX6d0jN_c_2KaeHD85s_</string>
+    <string name="ds2Cpp">https://www.youtube.com/watch?v=l0jMqpRwamM&amp;list=PLwCMLs3sjOY4UQq4vXgGPwGLVX1Y5faaS</string>
+
+    <!--Android URL-->
+    <string name="android1">https://www.youtube.com/watch?v=VoES7xpuEME&amp;list=PLF8OvnCBlEY3e0Yg990aAXreEru72_xWN</string>
+    <string name="android2">https://www.youtube.com/watch?v=-qttbTnYG7U&amp;list=PLHIfW1KZRIfnQ6WRvLbWok4ZZww4k3T1u</string>
+    <string name="android3">https://www.youtube.com/watch?v=TTJlx6-_S20&amp;list=PL7VN7OBi_bOO0I3nYn7VqrMws0wLrQtdx</string>
+    <string name="android4">https://www.youtube.com/watch?v=RQMvTnQj2Rs&amp;list=PLMYF6NkLrdN9TGwxfJUN7HeLvExdfXbgn</string>
+
+    <!--Python URL-->
+    <string name="python1">https://www.youtube.com/watch?v=MxYLqE3Ils8&amp;list=PLHIfW1KZRIfnM9y0sQRwjVz2-IwvnEJep</string>
+    <string name="python2">https://www.youtube.com/watch?v=byV_elXt0ZM&amp;list=PLMYF6NkLrdN8cn_nUolvhrGOOLIBybEsw</string>
+    <string name="python3">https://www.youtube.com/watch?v=AlFw9C7aYIE&amp;list=PL1DUmTEdeA6JCaY0EKssdqbiqq4sgRlUC</string>
+    <string name="python4">https://www.youtube.com/watch?v=rzqjYKyciUM&amp;list=PLF8OvnCBlEY1j4hxoqXqJk08ASU7D_W87</string>
+
+    <!--Arduino URL-->
+    <string name="arduino1">https://www.youtube.com/watch?v=DNuWN_nvtA4&amp;list=PLhZYrO_t1vLdnSUmyj6vHYG_vrnNPiPxi</string>
+    <string name="arduino2">https://www.youtube.com/watch?v=1IEqJjPIm8w&amp;list=PLa4kqtM7SuFwpY8omRT32RK8kw1hDIGJ3</string>
+    <string name="arduino3">https://www.youtube.com/watch?v=3DfQDNpRsDQ&amp;list=PLCn2VC9ANZ7L5YeQPY2dQn95rjsmRLZoN</string>
+
+    <!--C# URL-->
+    <string name="csharp1">https://www.youtube.com/watch?v=q7_qSBw8FEY&amp;list=PLHIfW1KZRIfkDF2xTIB5kX8gdthmLTufx</string>
+    <string name="csharp2">https://www.youtube.com/watch?v=N3CXL3IStfY&amp;list=PLF8OvnCBlEY0UEgX-PDJduL5Tyv4Estam</string>
+    <string name="csharp3">https://www.youtube.com/watch?v=74VQ_JmJXzI&amp;list=PLwj1YcMhLRN24KqNI0xQrNscBfLnYeJpL</string>
+
+    <!--Github URL-->
+    <string name="git1">https://www.youtube.com/watch?v=ACOiGZoqC8w&amp;list=PLDoPjvoNmBAw4eOj58MZPakHjaO3frVMF</string>
+    <string name="git2">https://www.youtube.com/watch?v=IXp3XH1C-vY&amp;list=PLF8OvnCBlEY0CRqKiYKwOtrH-75MGIuyM</string>
+    <string name="git3">https://www.youtube.com/watch?v=6DDOB1meDQA&amp;list=PLqPejUavRNTXejD5npdmFbe6NU6dTJLhW</string>
+
+    <!--Kotlin URL-->
+    <string name="kotlin1">https://www.youtube.com/watch?v=hR3D1odn2TQ&amp;list=PLF8OvnCBlEY2w-zdVPozupapiKzLzpyUZ</string>
+    <string name="kotlin2">https://www.youtube.com/watch?v=bS-09-sTnfM&amp;list=PLHIfW1KZRIfl5UHtM6DRFAVn3PBuJ7NGD</string>
+    <string name="kotlin3">https://www.youtube.com/watch?v=nPKyJz1aBXc&amp;list=PLzdS08UB3I_brCulwqptxJ17mAwRI1v1y</string>
+    <string name="kotlin4">https://www.youtube.com/watch?v=iQTIqZkl5ME&amp;list=PLMYF6NkLrdN_hQgdU_PT7R1jnk2DfZpNj</string>
+
+    <!--Css URL-->
+    <string name="css1">https://www.youtube.com/watch?v=Iu1T7j2FA4M&amp;list=PLDoPjvoNmBAzAeIcXA3_JsmSkPKOs9W-Y</string>
+    <string name="css2">https://www.youtube.com/watch?v=6mxro9uZbJw&amp;list=PLHIfW1KZRIflO6xnz4jpmzzSuo5B63aJf</string>
+    <string name="css3">https://www.youtube.com/watch?v=4xFzg2P1jZY&amp;list=PLL0-QxZk7weDSavhvDJw3WZaNZKfhWpmE</string>
+    <string name="css4">https://www.youtube.com/watch?v=aBlZ_2rGeb4&amp;list=PLDoPjvoNmBAyEyQaHOHO1HJtmSgGt07VC</string>
+    <string name="css5">https://www.youtube.com/watch?v=WYm4BkKNhxs&amp;list=PLtFbQRDJ11kEry0gyNDDxTrQ_ATbOn9-t</string>
+
+    <!--Html URL-->
+    <string name="html1">https://www.youtube.com/watch?v=PYjyg0LNTfE&amp;list=PLDoPjvoNmBAwClZ1PDcjWilxp9YERUbNt</string>
+    <string name="html2">https://www.youtube.com/watch?v=6gjg5n9kyBU&amp;list=PLDoPjvoNmBAyXCAQMLhDRZsLi_HurqTBZ</string>
+    <string name="html3">https://www.youtube.com/watch?v=8dO3iDegZ9o&amp;list=PLHIfW1KZRIfnXKjZ9UcT5BVt9x19BlItX</string>
+    <string name="html4">https://www.youtube.com/watch?v=ck-11T52gWU&amp;list=PLMYF6NkLrdN9YGZLeXIot4sJe9iQuBrB-&amp;index=2</string>
+
+    <!--JS URL-->
+    <string name="js1">https://www.youtube.com/watch?v=eKuNnpWhm7c&amp;list=PLDoPjvoNmBAw6p0z0Ek0OjPzeXoqlFlCh</string>
+    <string name="js2">https://www.youtube.com/watch?v=pQtf2MBvgk8&amp;list=PLtFbQRDJ11kEbVF23tMjl_NuTbTvff6OH</string>
+    <string name="js3">https://www.youtube.com/watch?v=lcEj0WH5xvQ&amp;list=PLHIfW1KZRIfmiYYwt29BG7N9zzsd-jLRQ</string>
+    <string name="js4">https://www.youtube.com/watch?v=wY5V93lGBnY&amp;list=PLMYF6NkLrdN8zyk4SNJboLa94GqWv4cFU</string>
+
+    <!--Php URL-->
+    <string name="php1">https://www.youtube.com/watch?v=-u9_T_CLZHY&amp;list=PLDoPjvoNmBAzH72MTPuAAaYfReraNlQgM</string>
+    <string name="php2">https://www.youtube.com/watch?v=ccyWEPMG22E&amp;list=PLHIfW1KZRIfmPDQahhTDdd1DJ4PwQl3pC</string>
+    <string name="php3">https://www.youtube.com/watch?v=GUsEJxOochU&amp;list=PLF8OvnCBlEY1bFcTW9JKKO7WJn_Bf9LZ1</string>
+    <string name="php4">https://www.youtube.com/watch?v=blKwvSVc2OM&amp;list=PLMYF6NkLrdN8JZvopd5vdPrKSyHSd5kxU</string>
+</resources>

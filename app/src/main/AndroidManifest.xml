@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".java"
+            android:label="@string/java_activity" />
+        <activity
+            android:name=".cpp"
+            android:label="@string/cpp_activity" />
+        <activity
+            android:name=".android"
+            android:label="@string/android_activity" />
+        <activity
+            android:name=".python"
+            android:label="@string/python_activity" />
+        <activity
+            android:name=".arduino"
+            android:label="@string/arduino_activity" />
+        <activity
+            android:name=".csharp"
+            android:label="@string/csharp_activity" />
+        <activity
+            android:name=".github"
+            android:label="@string/github_activity" />
+        <activity
+            android:name=".kotlin"
+            android:label="@string/kotlin_activity" />
+        <activity
+            android:name=".css"
+            android:label="@string/css_activity" />
+        <activity
+            android:name=".html"
+            android:label="@string/html_activity" />
+        <activity
+            android:name=".js"
+            android:label="@string/js_activity" />
+        <activity
+            android:name=".php"
+            android:label="@string/php_activity" />
+    </application>
+
+</manifest>

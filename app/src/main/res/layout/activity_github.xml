@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/coursesBackground"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".github">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Videos :"
+            android:textColor="#0704ac"
+            android:textSize="42sp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_margin="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#08a8ab" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/course_style"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                style="@style/textCourse"
+                android:text="Name: El Zero\nCourseName: Github \nLanguage: Arabic" />
+
+            <Button
+                android:id="@+id/github_button"
+                style="@style/buttonStyle"
+                android:text="Go To Course" />
+
+            <RatingBar
+                android:id="@+id/star_gitgub"
+                style="@style/RatingBar" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/course_style"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                style="@style/textCourse"
+                android:text="Name: The New Baghdad\nCourseName: Github \nLanguage: Arabic" />
+
+            <Button
+                android:id="@+id/github2_button"
+                style="@style/buttonStyle"
+                android:text="Go To Course" />
+
+            <RatingBar
+                android:id="@+id/star_gitgub2"
+                style="@style/RatingBar" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/course_style"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                style="@style/textCourse"
+                android:text="Name: Ahmed Mohamady\nCourseName: Github \nLanguage: Arabic" />
+
+            <Button
+                android:id="@+id/github3_button"
+                style="@style/buttonStyle"
+                android:text="Go To Course" />
+
+            <RatingBar
+                android:id="@+id/star_gitgub3"
+                style="@style/RatingBar" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

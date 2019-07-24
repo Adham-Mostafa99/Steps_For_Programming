@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/coursesBackground"
+        android:orientation="vertical"
+        android:padding="16dp"
+
+        tools:context=".html">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Videos :"
+            android:textColor="#0704ac"
+            android:textSize="42sp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_margin="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#08a8ab" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/course_style"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                style="@style/textCourse"
+                android:text="Name: El Zero\nCourseName: HTML \nLanguage: Arabic" />
+
+            <Button
+                android:id="@+id/html_button"
+                style="@style/buttonStyle"
+                android:text="Go To Course" />
+
+            <RatingBar
+                android:id="@+id/star_html"
+                style="@style/RatingBar" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/course_style"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                style="@style/textCourse"
+                android:text="Name: El Zero\nCourseName: HTML5 \nLanguage: Arabic" />
+
+            <Button
+                android:id="@+id/html5_button"
+                style="@style/buttonStyle"
+                android:text="Go To Course" />
+
+            <RatingBar
+                android:id="@+id/star_html5"
+                style="@style/RatingBar" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/course_style"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                style="@style/textCourse"
+                android:text="Name: Hassona Acadm..\nCourseName: HTML \nLanguage: Arabic" />
+
+            <Button
+                android:id="@+id/html2_button"
+                style="@style/buttonStyle"
+                android:text="Go To Course" />
+
+            <RatingBar
+                android:id="@+id/star_html2"
+                style="@style/RatingBar" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/course_style"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                style="@style/textCourse"
+                android:text="Name: Mohamed Essa\nCourseName: HTML/HTML5 \nLanguage: Arabic" />
+
+            <Button
+                android:id="@+id/html5_2_button"
+                style="@style/buttonStyle"
+                android:text="Go To Course" />
+
+            <RatingBar
+                android:id="@+id/star_html5_2"
+                style="@style/RatingBar" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
